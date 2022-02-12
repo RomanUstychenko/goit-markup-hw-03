@@ -130,12 +130,6 @@ margin-left: 50px;
     flex-direction: column;
     align-items: center;
 }
-.div-container {
-    margin-top: 95px;
-}
-.about-container:not(:first-child) {
-    margin-left: 30px;
-}
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -169,10 +163,17 @@ margin-left: 50px;
     }
 /* ======END HERO====== */
 /* ======START ABOUT====== */
+.sections {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
 .about-container {
     display: flex;
     align-items: center;
-}
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+} 
+
 .about-title {
     font-weight: 700;
     font-size: 14px;
