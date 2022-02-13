@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>My project</title>
 </head>
@@ -38,8 +39,8 @@
             <button class="modal-btn" type="button">Заказать услугу</button>
         </div>
     </section>
-    <section class="about sections">
-        <div class="div-container container">
+    <section class="about">
+        <div class="container">
             <ul class="about-container list">
                 <li>
                     <h3 class="about-title">Внимание к деталям</h3>
@@ -63,7 +64,7 @@
     <section class="services sections">
         <div class="container">
             <h2 class="services-title">Чем мы занимаемся</h2>
-            <ul class="list">
+            <ul class="list services-list">
                 <li> 
                     <img src="images/actions/print.jpg" alt="печатать на клавиатуре" width="370" height="294">
                 </li>
@@ -79,23 +80,23 @@
     <section class="team sections">
         <div class="container">
             <h2 class="team-title">Наша команда</h2>
-            <ul class="list">
-                <li>
+            <ul class="list team-list">
+                <li class="team-card">
                     <img src="images/team/igor.jpg" alt="Игорь" width="270" height="260">
                     <h3 class="team-name">Игорь Демьяненко</h3>
                     <p class="team-profession" lang="en">Product Designer</p>
                 </li>
-                <li>
+                <li class="team-card">
                     <img src="images/team/olga.jpg" alt="Ольга" width="270" height="260">
                     <h3 class="team-name">Ольга Репина</h3>
                     <p class="team-profession" lang="en">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="team-card">
                     <img src="images/team/nikolay.jpg" alt="Николай" width="270" height="260">
                     <h3 class="team-name">Николай Тарасов</h3>
                     <p class="team-profession" lang="en">Marketing</p>
                 </li>
-                <li>
+                <li class="team-card">
                     <img src="images/team/mikhail.jpg" alt="Михаил" width="270" height="260">
                     <h3 class="team-name">Михаил Ермаков</h3>
                     <p class="team-profession" lang="en">UI Designer</p>
@@ -109,13 +110,13 @@
             <a class="logo link" href="" lang="en">Web<span class="logo-studio-footer">Studio</span></a>
             <address>
                 <ul class="list">
-                    <li>
+                    <li class="map-list">
                         <a class="address-map link" href="https://goo.gl/maps/ZxELNricPK3WxZS16" target="_blank">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
-                    <li>
-                        <a class="address-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <li class="maill-list">
+                        <a class="address-maill link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
-                    <li>
+                    <li class="phone-list">
                         <a class="address-phone link" href="tel:+380441111111">+38 044 111 11 11</a>
                     </li>
                 </ul>
