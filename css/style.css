@@ -10,22 +10,21 @@
     --team-background-color: #F5F4FA;
     --logo-studio-header-color: #000000;
     }
-    h1,
-h2,h3,h4,h5,h6,p {
-  margin-top: 0;
-  margin-bottom: 0;
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 ul,
 ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
 .list {
     list-style: none;
     }
@@ -61,37 +60,37 @@ img {
     letter-spacing: 0.03em;
     color: var(--main-font-color);
     }
-    .sections {
-        padding-top: 95px;
-        padding-bottom: 95px;
+.sections {
+    padding-top: 95px;
+    padding-bottom: 95px;
     }
 /* ======END COMPONENT====== */
 /* ======START HEADER====== */
 .header-container {
     display: flex;
     align-items: center;
-}
+    }
 .nav-list {
     display: flex;
     align-items: center;
-}
+    }
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
     border: 1px solid #ECECEC;
-}
+    }
 .navigation {
     margin-left: 95px;
-}
+    }
 .nav-list-item:not(:first-child) {
-margin-left: 50px;
-}
+    margin-left: 50px;
+    }
 .nav-maill-info {
     margin-left: auto;
-}
+    }
 .nav-tel-info {
     margin-left: 50px;
-}
+    }
 .logo-studio-header {
     color: var(--logo-studio-header-color);
     }
@@ -136,7 +135,7 @@ margin-left: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    }
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -175,8 +174,7 @@ margin-left: 50px;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 95px;
-} 
-
+    } 
 .about-title {
     font-weight: 700;
     font-size: 14px;
@@ -196,7 +194,7 @@ margin-left: 50px;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-}
+    }
 /* ======END ABOUT====== */
 
 /* ======START TEAM====== */
@@ -207,14 +205,14 @@ margin-left: 50px;
     display: flex;
     margin-left: -30px;
     margin-top: 50px;
-}
+    }
 .team-card {
     margin-left: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
      0px 1px 1px rgba(0, 0, 0, 0.14), 
      0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
+    }
 .team-name {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -242,11 +240,11 @@ margin-left: 50px;
     }
 .map-list {
     margin-top: 20px;
-}
+    }
 .maill-list,
 .phone-list {
     margin-top: 10px;
-}
+    }
 .logo-studio-footer {
     color: var(--main-background-color);
     }
@@ -272,10 +270,10 @@ margin-left: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    }
 .btn-list-portfolio:not(:last-child) {
     margin-right: 10px;
-}
+    }
 .portfolio-btn {
     font-family: inherit;
     font-weight: 500;
