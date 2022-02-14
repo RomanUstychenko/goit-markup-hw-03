@@ -13,13 +13,13 @@
 h1,h2,h3,h4,h5,h6,p {
     margin-top: 0;
     margin-bottom: 0;
-}
+    }
 ul,
 ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-}
+    }
 img {
     display: block;
     max-width: 100%;
@@ -38,7 +38,7 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
+    }
 .body {
     font-family: var(--primary-font-family);
     background: var(--main-background-color);
@@ -77,7 +77,7 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;;
     }
 .navigation {
     margin-left: 95px;
@@ -127,9 +127,10 @@ img {
 /* ======END HEADER====== */
 
 /* ======START HERO====== */
-.hero {
+.hero-section {
     background: var(--hero-footer-background-color);
     height: 600px;
+    padding-top: 200px;
     }
 .hero-container {
     display: flex;
@@ -144,7 +145,7 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-background-color);
-    margin-top: 200px;
+    /* margin-top: 200px; */
     }
 .modal-btn {
     min-width: 200px;
@@ -168,12 +169,17 @@ img {
     }
 /* ======END HERO====== */
 /* ======START ABOUT====== */
+.about-section {
+    padding-top: 95px;
+    }
+.about-list {
+    flex-basis: calc((100% - 90px) / 4);
+    }
 .about-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 95px;
     } 
 .about-title {
     font-weight: 700;
@@ -209,12 +215,15 @@ img {
 .team-card {
     margin-left: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-     0px 1px 1px rgba(0, 0, 0, 0.14), 
-     0px 2px 1px rgba(0, 0, 0, 0.2);
+                0px 1px 1px rgba(0, 0, 0, 0.14), 
+                0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     }
+.team-card-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
 .team-name {
-    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -224,7 +233,6 @@ img {
     color: var(--main-font-color);
     }
 .team-profession {
-    padding-bottom: 30px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -284,16 +292,17 @@ img {
     background-color: var(--team-background-color);
     color: var(--main-font-color);
     cursor: pointer;
-    background: #F5F4FA;
     border: 0px solid;
     border-radius: 4px;
     padding: 6px 20px;
-    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     color: var(--main-background-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+                0px 1px 2px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
     }
 .portfolio {
     display: flex;
@@ -303,17 +312,18 @@ img {
     }
 .portfolio-group {
     margin-left: 30px;
-    background: #FFFFFF;
+    background: var(--main-background-color);
     }
 .portfolio-border {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
     border: 1px solid #EEEEEE;
     }
     .portfolio-group:not(:nth-child(-n+3)) {
     margin-top: 30px;
     }
 .portfolio-title {
-    padding-top: 20px;
-    padding-left: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -322,8 +332,6 @@ img {
     }
 .portfolio-description {
     padding-top: 4px;
-    padding-bottom: 20px;
-    padding-left: 24px;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
